@@ -199,6 +199,7 @@ class ShoppingCart implements ShoppingCartInterface {
 				shoppingBasketList.add(shoppingBasket);
 			} catch (Exception ex) {
 				System.out.println("Please enter valid input!");
+				return false;
 			}
 		}
 		shoppingBasketInputList.addAll(shoppingBasketList);
