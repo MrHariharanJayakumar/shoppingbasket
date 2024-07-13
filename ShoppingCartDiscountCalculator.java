@@ -333,9 +333,9 @@ public class ShoppingCartDiscountCalculator {
  * item and price.
  */
 class ShoppingBasket {
-	int noOfQuantity;
-	String item;
-	double price;
+	private int noOfQuantity;
+	private String item;
+	private double price;
 
 	public int getNoOfQuantity() {
 		return noOfQuantity;
